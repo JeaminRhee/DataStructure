@@ -1,0 +1,26 @@
+Calculate the sum of all numbers in the given files: 
+[example1.txt, eample2.txt, example3.txt]
+
+Ex) example1.txt
+
+Funding in A.I. start-ups has increased more than fourfold to
+$681 million in 2015, from $145 million in 2011, according to
+the market research firm CB Insights.
+
+The firm estimates that new investments will reach $1.2
+billion (CAD1.5B) this year, up 76 percent from last year.
+
+(from NYT)
+
+
+For the example above, your program is supposed to print out
+
+"The sum is 4930.7".
+
+(Because 681 + 2015 + 145 + 2011 + 1.2 + 1.5 + 76 = 4930.7)
+
+- You have to get a file name as an input.
+
+* No negative numbers.
+
+* You can use ¡®stof¡¯ to convert string to float.
