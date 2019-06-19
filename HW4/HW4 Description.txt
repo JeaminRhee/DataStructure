@@ -1,0 +1,28 @@
+HW4 Description
+
+Read matrices and apply '+' (addition), 'x' (matrix multiplication) and 'transpose' operations.
+
+Each operation should be implemented as a function (do NOT use static arrays).
+
+The return value should be a double pointer. ( ex.) int ** ptr;)
+
+float **add_matrix(float** a, int ah, int aw, float** b, int bh, int bw)
+float **mul_matrix(float** a, int ah, int aw, float** b, int bh, int bw)
+float **transpose_matrix(float** a, int ah, int aw)(or you can implement with 1D array)
+
+*The multiplication means "matrix multiplication".
+
+Output
+
+1) "Matrix dimension mismatch" when given matrices whose rows and corresponding number of columns do not match (i.e. 3x4 and 5x6)
+2) the dimension of the output matrix and the matrix elements in order.
+(i.e. The output is:
+3 3
+1 2 3
+4 5 6
+7 8 9)
+
+Steps)
+1) Read two files, each of which has a size in the first line followed by elements.
+2) Check the matrix sizes (matrix dimension: w x h) for operations.
+3) Print out the output matrix after the size - the format style should be the same as that of the input.

@@ -1,0 +1,26 @@
+HW9 Description
+Read a file and print the lines in reverse order.
+
+You must use C++ STL to implement this program.
+
+Input
+
+Each line of the input file is in the following form:
+name, id, and email.
+
+Output
+
+Each line of the output file should be printed out in the following order:
+id, name, and email
+
+Example
+example)
+
+input file 					output file
+Geoffrey, 11, geoff@toronto.edu			57, Alex, alex@deepmind.com
+Yoshua, 12, yoshua@montreal.edu		55, Cho, cho@nyu.edu
+Yann, 13, yann@nyu.edu			13, Yann, yann@nyu.edu
+Cho, 55, cho@nyu.edu			12, Yoshua, yoshua@montreal.edu
+Alex, 57, alex@deepmind.com			11, Geoffrey, geoff@toronto.edu
+
+* Make sure to use C++ STL to implement this program.

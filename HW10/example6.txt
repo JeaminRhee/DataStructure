@@ -1,0 +1,7 @@
+a 3 john
+
+a 6 pepper
+
+a 1 cooper
+
+d 9

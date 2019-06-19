@@ -1,0 +1,29 @@
+HW2 Description
+Count the # of occurrences of alpha-numeric characters in a given file.
+
+For example, if the file has the following two lines:
+
+Input (from a given file)
+
+       I am 15. How about you?
+       I would have to say 25.
+
+
+Then, your code should print out the following as output to the console:
+
+Output
+
+A: 4
+B: 1
+C: 0 
+....
+Y: 2
+Z: 0
+0: 0
+1: 1
+2: 1
+...
+5: 2
+6: 0
+...
+9: 0

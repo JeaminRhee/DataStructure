@@ -1,0 +1,82 @@
+HW7 Description
+example1.txt
+a 3 henry
+a 2 choi
+a 5 handong
+a 9 university
+p
+q
+
+example2.txt
+a 3 daniel
+a 1 charlie
+a 5 thomas
+d 5
+d 1
+p
+q
+
+example3.txt
+a 10 richard
+a 2 stark
+a 1 howard
+a 5 tony
+a 9 pepper
+d 2
+p
+q
+
+example4.txt
+a 3 rhodey
+a 3 richard
+q
+
+example5.txt
+a 10 daniel
+a 9 chelsea
+a 8 chuck
+d 5
+q
+
+example6.txt
+a 4 april
+a 3 march
+a 6 june
+a 5 may
+a 9 september
+a 1 january
+d 4
+p
+q
+
+
+Example of execution
+%run_bst
+a 3 kimdool
+a 2 JisungPark
+a 5 KoreaKorea
+a 2 global(print out "2 is already in the tree")
+a 9 university
+d 3
+d 7 (print out "7 is not in the tree")
+p (should print out the nodes (key, value))
+d 5
+p (should print out the nodes (key, value))
+q
+
+
+the format of each line should be command(key, value)
+coomand: a character
+key: an integer
+value: a string
+
+a: add
+d: delete
+p: print (in order)
+q: quit the program
+
+ex)
+a 3 JiSungPark ¡æ add(3, JiSungPark)
+d 3 ¡æ delete key=3
+
+

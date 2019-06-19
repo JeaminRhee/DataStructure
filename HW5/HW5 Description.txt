@@ -1,0 +1,23 @@
+HW5 Description
+
+Implement a calculator
+
+- You need to calculate 4 operators (+, -, *, /) for real numbers with parenthesis.
+
+ex) (3.4+5) * 2.3 / (2.3 + 1.2)
+
+- You must implement the calculator using class (e.g. class Calculator(...))
+
+class Calculator{
+    private:
+      Stack1 stack1; // operator
+      Stack2 stack2; // operand
+      string inflix_exp, postfix_exp;
+    public:
+      // Implement the following as member functions
+      Calculator();
+      Read(string exp);
+      tokenizer();
+      Convert_infix2postfix();
+      float Evaluate();
+}

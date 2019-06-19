@@ -1,0 +1,39 @@
+HW10 Description
+Make sure to implement this program using C++ STL.
+
+Example of execution
+%run_bst
+a 3 kimdool
+a 2 JisungPark
+a 5 KoreaKorea
+a 2 global(print out "2 is already in the tree")
+a 9 university
+d 3
+d 7 (print out "7 is not in the tree")
+p (should print out the nodes (key, value))
+d 5
+p (should print out the nodes (key, value))
+q
+
+the format of each line should be command(key, value)
+coomand: a character
+key: an integer
+value: a string
+
+
+Commands
+1) a : add
+2) d : delete
+3) p : print (use inorder traversal)
+
+4) q : terminate the program execution
+Output
+(key1, value1)
+(key2, value2)
+(key3, value3)...
+
+- Use inorder traversal to print out the (key,value) pairs.
+
+* Upon entering duplicate key value, print out: "<duplicate_val> is already in the tree"
+* Upon deletion, if the key and value being delete is not in the BST, print the following error message: "<nonexistent value> is not in the tree"
+* Entering "p" (print) should print out the nodes 

@@ -1,0 +1,28 @@
+HW8 Description
+
+Revise a text file with a given map file and print the revised one.
+
+User Input
+Text file name
+map file name
+
+
+At the bottom of this instruction, there are revised versions of the example.txt files and map.txt files. Make sure to refer to those texts if there are any errors in the current text files.
+
+ex)
+example1.txt
+map1.txt
+
+Output
+the revised text
+
+The format of each line in the map is defined by the following rule:
+
+source_word: target_word
+
+- Do NOT ignore case or punctuation marks. The sentences are case-sensitive.
+- In a line, words are separated by white spaces
+
+You must use a "Binary Search Tree (BST)" to create the map for the map.txt files.
+
+Use the source word as the key and target word as the value.
